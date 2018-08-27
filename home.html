@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Functional Programming Assignment 3</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+        //created array 
+        var arr = [2,4,6];
+        var newArr = arr.map(function(num) {    // iterated and invoked callback on every element
+            return num * 2
+        });
+        console.log(arr);           //original array
+        console.log(newArr);        // captured and logged the value in new array 
+    </script>
+</head>
+<body>
+    <h1>Result can be seen in console</h1>
+</body>
+</html>
